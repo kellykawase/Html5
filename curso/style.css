@@ -1,0 +1,7 @@
+#introducao{
+    background-image: url(./fundo.jpg) ;
+    background-repeat:no-repeat;    
+    background-attachment: fixed;
+    background-position: cover;
+/*background:url(fundo.jpg) no-repeat fixed cover; */
+}
