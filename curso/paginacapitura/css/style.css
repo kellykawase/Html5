@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Ariel, Helvetica, Arial, Helvetica, sans-serif;
+    background-color: black;
+}
+
+.container{
+    max-width: 1000px;
+    margin: auto;
+}
+
+header{
+    background-color: #48C5CE;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.title{
+    font-size: 26px;
+}
+
+section{
+    color: white;
+}
