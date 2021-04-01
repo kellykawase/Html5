@@ -92,3 +92,76 @@ footer{
 .description h3{
     font-size: 24px;
 }
+
+@media screen and (max-width: 700px)
+{
+    .formContainer{
+        max-width: 250px;
+        float:none;
+        margin: auto;  
+        padding: 20px;           
+    }
+
+    .picture{
+        width: 170px;
+    }
+    
+    footer{
+        padding: 30px;
+        margin: auto;
+    }
+    .description{
+        display: inline;        
+        margin: auto;
+        
+    }
+    .description p, .description h3{
+        margin-bottom: 20px;
+    }
+    .description p{
+        width: 250px;
+        margin: auto;
+        text-align: justify;
+    }
+    .description h3{
+        margin-top: 10px;
+        font-size: 24px;
+        text-align: center;
+    }
+}
+@media screen and (max-width: 400px)
+{
+    .formContainer{
+        max-width: 300px;
+        float:none;
+        margin: auto;  
+        padding: 30px;           
+    }
+
+    .picture{
+        width: 170px;
+    }
+    
+    footer{
+        padding: 30px;
+        margin: auto;
+    }
+    .description{
+        display: inline;        
+        margin: auto;
+        
+    }
+    .description p, .description h3{
+        margin-bottom: 20px;
+    }
+    .description p{
+        width: 300px;
+        margin: auto;
+        text-align: justify;
+    }
+    .description h3{
+        margin-top: 10px;
+        font-size: 24px;
+        text-align: center;
+    }
+}
